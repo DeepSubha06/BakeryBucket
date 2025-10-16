@@ -1,0 +1,1548 @@
+/* Mediaquery */
+/* For Extra Small Screen */
+
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  /* Back to top Button */
+
+  #button {
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 0;
+  }
+
+  #button::after {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  /* Navbar */
+
+  #menu {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+    background-color: #eaa636;
+  }
+
+  .slicknav_btn {
+    background-color: #332104;
+  }
+
+  .slicknav_nav a:hover {
+    background-color: #ffedcd;
+  }
+
+  .slicknav_nav a {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  /* Banner */
+
+  .ban {
+    height: 360px;
+  }
+
+  .ban-1 {
+    height: 360px;
+  }
+
+  .ban-2 {
+    height: 360px;
+  }
+
+  .text-box {
+    padding: 10px;
+  }
+
+  .text-box h3 {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  .text-box h2 {
+    font-size: 16px;
+  }
+
+  .text-main {
+    padding-bottom: 10px;
+  }
+
+  .text-box p {
+    font-size: 11px;
+    padding-bottom: 10px;
+  }
+
+  .text-box a {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Section-1 */
+
+  .sec-1 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-1-texts {
+    flex-basis: 80%;
+  }
+
+  .sec-1-texts h3 {
+    font-size: 24px;
+  }
+
+  .sec-1-texts h1 {
+    font-size: 28px;
+  }
+
+  .listing ul li {
+    font-size: 18px;
+  }
+
+  .logo-image {
+    flex-basis: 33%;
+  }
+
+  .logo-image img {
+    width: 60px;
+  }
+
+  /* Section-2 */
+
+  .sec-2 {
+    padding: 50px 0 0 0;
+  }
+
+  .box-1 {
+    flex-basis: 70%;
+  }
+
+  /* Section-2-2 */
+
+  .sec-22-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-22-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-22-text h2 {
+    font-size: 28px;
+  }
+
+  .box-22 {
+    flex-basis: 80%;
+  }
+
+  /* Section-3 */
+
+  .star-ratings {
+    font-size: 14px;
+  }
+
+  .sec-3-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-3-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-3-text h2 {
+    font-size: 28px;
+  }
+
+  .box-3 {
+    flex-basis: 80%;
+  }
+
+  /* Section-4 */
+
+  .sec-4-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-4-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-4-text h2 {
+    font-size: 30px;
+  }
+
+  .images {
+    flex-basis: 80%;
+  }
+
+  /* Section-5 */
+
+  .box-text {
+    flex-basis: 60%;
+  }
+
+  /* Section-6 */
+
+  .sec-6 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-6-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-6-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-6-text h2 {
+    font-size: 27px;
+  }
+
+  .sec-6-card {
+    flex-basis: 80%;
+  }
+
+  .date-box h4 {
+    font-size: 13px;
+  }
+
+  .sec-6-card-text h3 {
+    font-size: 24px;
+  }
+
+  /* Section-7 */
+
+  .sec-7 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-7-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-7-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-7-text h2 {
+    font-size: 27px;
+  }
+
+  /* Section-8 */
+
+  .sec-8 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-8-box {
+    padding: 20px 30px;
+  }
+
+  .sec-8-text h2 {
+    font-size: 25px;
+  }
+
+  .call-8 {
+    font-size: 25px;
+  }
+
+  .sec-8-call-details h3 {
+    font-size: 25px;
+  }
+
+  /* Section-9 */
+
+  .sec-9 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-9-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-9-text h2 {
+    font-size: 30px;
+  }
+
+  .team-1 {
+    flex-basis: 80%;
+  }
+
+  .sec-9-text {
+    margin-bottom: 15px;
+  }
+
+  /* Section-10 */
+
+  .sec-10 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-10-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-10-text h2 {
+    font-size: 35px;
+  }
+
+  .cards {
+    flex-basis: 90%;
+  }
+
+  .cards h4 {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+
+  .cards ul li {
+    font-size: 18px;
+  }
+
+  /* Section-11 */
+
+  .accordion {
+    font-size: 15px;
+  }
+
+  .sec-11 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-11-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-11-text h2 {
+    font-size: 32px;
+  }
+
+  .sec-11-details {
+    flex-basis: 90%;
+  }
+
+  .panel p {
+    font-size: 14px;
+  }
+
+  /* Section-12 */
+
+  .sec-12-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-12-text h2 {
+    font-size: 35px;
+  }
+
+  .form-box-1 {
+    flex-basis: 87%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  /* Section-13 */
+
+  .sec-13-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-13-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-13-text h2 {
+    font-size: 35px;
+  }
+
+  .sec-13-images {
+    flex-basis: 90%;
+  }
+
+  /* Section-14 */
+
+  .sec-14-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-14-text h3 {
+    font-size: 24px;
+  }
+
+  .sec-14-text h2 {
+    font-size: 35px;
+  }
+
+  .sec-14-email {
+    width: 100%;
+  }
+
+  .sec-14-butt {
+    right: 0;
+  }
+
+  /* Footer */
+
+  .foot-logo {
+    margin-bottom: 20px;
+  }
+
+  .foot-1 {
+    flex-basis: 92%;
+    text-align: center;
+  }
+
+  .foot-social-box {
+    justify-content: center;
+  }
+
+  .foot-social-image {
+    justify-content: center;
+  }
+
+  .foot-1 h4 a {
+    font-size: 19px;
+  }
+}
+
+/* For Small Screen */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+    padding: 0 20px;
+  }
+
+  /* Back to top Button */
+
+  #button {
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 0;
+  }
+
+  #button::after {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  /* Navbar */
+
+  #menu {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+    background-color: #eaa636;
+  }
+
+  .slicknav_btn {
+    background-color: #332104;
+  }
+
+  .slicknav_nav a:hover {
+    background-color: #ffedcd;
+  }
+
+  .slicknav_nav a {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  /* Banner */
+
+  .ban {
+    height: 400px;
+  }
+
+  .ban-1 {
+    height: 400px;
+  }
+
+  .ban-2 {
+    height: 400px;
+  }
+
+  .text-box h3 {
+    font-size: 15px;
+    padding-bottom: 12px;
+  }
+
+  .text-box h2 {
+    font-size: 18px;
+  }
+
+  .text-box {
+    padding: 9px;
+  }
+
+  .text-main {
+    padding-bottom: 12px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+    padding-bottom: 12px;
+  }
+
+  .text-box a {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  /* Section-1 */
+
+  .sec-1 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-1-texts {
+    flex-basis: 80%;
+  }
+
+  .sec-1-texts h3 {
+    font-size: 26px;
+  }
+
+  .sec-1-texts h1 {
+    font-size: 32px;
+  }
+
+  .listing ul li {
+    font-size: 22px;
+  }
+
+  .logo-image {
+    flex-basis: 26%;
+  }
+
+  /* Section-2 */
+
+  .box-1 {
+    flex-basis: 50%;
+  }
+
+  /* Section-2-2 */
+
+  .sec-22-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-22-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-22-text h2 {
+    font-size: 30px;
+  }
+
+  .box-22 {
+    flex-basis: 54%;
+  }
+
+  /* Section-3 */
+
+  .star-ratings {
+    font-size: 10px;
+  }
+
+  .sec-3-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-3-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-3-text h2 {
+    font-size: 35px;
+  }
+
+  .box-3 {
+    flex-basis: 44%;
+  }
+
+  .sec-3-details h4 {
+    font-size: 16px;
+  }
+
+  .sec-3-details h3 {
+    font-size: 14px;
+  }
+
+  /* Section-4 */
+
+  .sec-4-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-4-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-4-text h2 {
+    font-size: 32px;
+  }
+
+  .images {
+    flex-basis: 42%;
+  }
+
+  /* Section-5 */
+
+  .box-text {
+    flex-basis: 42%;
+  }
+
+  /* Section-6 */
+
+  .sec-6-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-6-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-6-text h2 {
+    font-size: 32px;
+  }
+
+  .sec-6-card {
+    flex-basis: 47%;
+    margin: 6px;
+  }
+
+  .date-box h4 {
+    font-size: 12px;
+  }
+
+  .sec-6-card-text h3 {
+    font-size: 16px;
+  }
+
+  .sec-6-card-text p {
+    font-size: 14px;
+  }
+
+  /* Section-7 */
+
+  .sec-7-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-7-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-7-text h2 {
+    font-size: 32px;
+  }
+
+  /* Section-8 */
+
+  .sec-8-box {
+    padding: 20px 30px;
+  }
+
+  .sec-8-text {
+    flex-basis: 39%;
+  }
+
+  .sec-8-text h2 {
+    font-size: 25px;
+  }
+
+  .call-8 {
+    font-size: 25px;
+  }
+
+  .sec-8-call-details h3 {
+    font-size: 25px;
+  }
+
+  /* Section-9 */
+
+  .sec-9-text h2 {
+    font-size: 35px;
+  }
+
+  .team-1 {
+    flex-basis: 42%;
+  }
+
+  .sec-9-text {
+    margin-bottom: 20px;
+  }
+
+  .sec-9-team-details h3 {
+    font-size: 26px;
+  }
+
+  .sec-9-team-details h4 {
+    font-size: 22px;
+  }
+
+  /* Section-10 */
+
+  .sec-10 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-10-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-10-text h2 {
+    font-size: 35px;
+  }
+
+  .cards {
+    flex-basis: 77%;
+  }
+
+  .cards ul li {
+    font-size: 20px;
+  }
+
+  /* Section-11 */
+
+  .sec-11 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-11-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-11-text h2 {
+    font-size: 36px;
+  }
+
+  .sec-11-details {
+    flex-basis: 94%;
+  }
+
+  .panel p {
+    font-size: 18px;
+  }
+
+  /* Section-12 */
+
+  .sec-12-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-12-text h2 {
+    font-size: 40px;
+  }
+
+  .form-box-1 {
+    flex-basis: 92%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  /* Section-13 */
+
+  .sec-13-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-13-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-13-text h2 {
+    font-size: 38px;
+  }
+
+  .sec-13-images {
+    flex-basis: 42%;
+  }
+
+  /* Section-14 */
+
+  .sec-14-text {
+    margin-bottom: 25px;
+  }
+
+  .sec-14-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-14-text h2 {
+    font-size: 38px;
+  }
+
+  .sec-14-email {
+    width: 100%;
+  }
+
+  .sec-14-butt {
+    right: 0;
+  }
+
+  /* Footer */
+
+  .foot-logo {
+    margin-bottom: 25px;
+  }
+
+  .foot-1 {
+    flex-basis: 44%;
+    text-align: center;
+  }
+
+  .foot-social-box {
+    justify-content: center;
+  }
+
+  .foot-social-image {
+    justify-content: center;
+  }
+
+  .foot-1 h4 a {
+    font-size: 16px;
+  }
+}
+
+/* For Medium Screen */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+
+  /* Back to top Button */
+
+  #button {
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 0;
+  }
+
+  #button::after {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  /* Navbar */
+
+  .main-list li {
+    padding: 2px;
+  }
+
+  .main-list li a {
+    font-size: 13px;
+  }
+
+  .call {
+    font-size: 15px;
+  }
+
+  .call-icon {
+    padding-right: 5px;
+  }
+
+  .call-details h3 a {
+    font-size: 13px;
+  }
+
+  /* Banner */
+
+  .ban {
+    height: 450px;
+  }
+
+  .ban-1 {
+    height: 450px;
+  }
+
+  .ban-2 {
+    height: 450px;
+  }
+
+  .text-box h3 {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  .text-box h2 {
+    font-size: 24px;
+  }
+
+  .text-box {
+    padding: 10px;
+  }
+
+  .text-main {
+    padding-bottom: 12px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+    padding-bottom: 12px;
+  }
+
+  .text-box a {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  /* Section-1 */
+
+  .sec-1 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-1-texts {
+    flex-basis: 80%;
+  }
+
+  .sec-1-texts h1 {
+    font-size: 37px;
+  }
+
+  .logo-image {
+    flex-basis: 26%;
+  }
+
+  /* Section-2 */
+
+  .box-1 {
+    flex-basis: 40%;
+  }
+
+  /* Section-2-2 */
+
+  .sec-22-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-22-text h2 {
+    font-size: 37px;
+  }
+
+  .box-22 {
+    flex-basis: 40%;
+  }
+
+  /* Section-3 */
+
+  .sec-3-text {
+    margin-bottom: 35px;
+  }
+
+  .star-ratings {
+    font-size: 16px;
+  }
+
+  .sec-3-text h2 {
+    font-size: 40px;
+  }
+
+  .box-3 {
+    flex-basis: 46%;
+  }
+
+  .sec-3-details h3 {
+    font-size: 26px;
+  }
+
+  .sec-3-details h4 {
+    font-size: 24px;
+  }
+
+  /* Section-4 */
+
+  .sec-4-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-4-text h2 {
+    font-size: 35px;
+  }
+
+  .images {
+    flex-basis: 44%;
+  }
+
+  /* Section-5 */
+
+  .box-text {
+    flex-basis: 18%;
+  }
+
+  /* Section-6 */
+
+  .sec-6-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-6-text h3 {
+    font-size: 26px;
+  }
+
+  .sec-6-text h2 {
+    font-size: 32px;
+  }
+
+  .sec-6-card {
+    flex-basis: 45%;
+  }
+
+  .date-box h4 {
+    font-size: 20px;
+  }
+
+  .sec-6-card-text h3 {
+    font-size: 23px;
+  }
+
+  /* Section-7 */
+
+  .sec-7-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-7-text h3 {
+    font-size: 27px;
+  }
+
+  .sec-7-text h2 {
+    font-size: 37px;
+  }
+
+  /* Section-8 */
+
+  .sec-8-box {
+    padding: 30px 40px;
+  }
+
+  .sec-8-text {
+    flex-basis: 53%;
+  }
+
+  .sec-8-text h2 {
+    font-size: 30px;
+  }
+
+  .call-8 {
+    font-size: 30px;
+  }
+
+  .sec-8-call-details h3 {
+    font-size: 30px;
+  }
+
+  /* Section-9 */
+
+  .sec-9-text h2 {
+    font-size: 40px;
+  }
+
+  .team-1 {
+    flex-basis: 44%;
+  }
+
+  .sec-9-text {
+    margin-bottom: 25px;
+  }
+
+  /* Section-10 */
+
+  .sec-10 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-10-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-10-text h2 {
+    font-size: 40px;
+  }
+
+  .cards {
+    flex-basis: 30%;
+  }
+
+  .cards ul li {
+    font-size: 15px;
+  }
+
+  .cards .card-list {
+    padding-bottom: 39px;
+  }
+
+  .middle-card h6 {
+    font-size: 14px;
+  }
+
+  /* Section-11 */
+
+  .sec-11 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-11-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-11-text h2 {
+    font-size: 40px;
+  }
+
+  .sec-11-details {
+    flex-basis: 78%;
+  }
+
+  /* Section-12 */
+
+  .sec-12-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-12-text h2 {
+    font-size: 44px;
+  }
+
+  .form-box-1 {
+    flex-basis: 44%;
+  }
+
+  textarea {
+    width: 674px;
+  }
+
+  /* Section-13 */
+
+  .sec-13-text {
+    margin-bottom: 30px;
+  }
+
+  .sec-13-text h2 {
+    font-size: 40px;
+  }
+
+  .sec-13-images {
+    flex-basis: 44%;
+  }
+
+  /* Section-14 */
+
+  .sec-14-text h2 {
+    font-size: 40px;
+  }
+
+  .sec-14-email {
+    width: 100%;
+  }
+
+  .sec-14-butt {
+    right: 0;
+  }
+
+  /* Footer */
+
+  .foot-logo {
+    margin-bottom: 30px;
+  }
+
+  .foot-1 {
+    flex-basis: 45%;
+    text-align: center;
+  }
+
+  .foot-social-box {
+    justify-content: center;
+  }
+
+  .foot-social-image {
+    justify-content: center;
+  }
+}
+
+/* For Large Screen */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* Back to top Button */
+
+  #button {
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 0;
+  }
+
+  #button::after {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  /* Navbar */
+
+  .main-list li {
+    padding: 5px;
+  }
+
+  .main-list li a {
+    font-size: 17px;
+  }
+
+  .call {
+    font-size: 18px;
+  }
+
+  .call-icon {
+    padding-right: 8px;
+  }
+
+  .call-details h3 a {
+    font-size: 18px;
+  }
+
+  /* Banner */
+
+  .ban {
+    height: 500px;
+  }
+
+  .ban-1 {
+    height: 500px;
+  }
+
+  .ban-2 {
+    height: 500px;
+  }
+
+  .text-box h3 {
+    padding-bottom: 12px;
+  }
+
+  .text-box h2 {
+    font-size: 23px;
+  }
+
+  .text-box {
+    padding: 10px;
+  }
+
+  .text-main {
+    padding-bottom: 12px;
+  }
+
+  .text-box p {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  .text-box a {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  /* Section-1 */
+
+  .sec-1 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-1-texts {
+    flex-basis: 35%;
+  }
+
+  .sec-1-texts h1 {
+    font-size: 27px;
+  }
+
+  .logo-image {
+    flex-basis: 26%;
+  }
+
+  .listing ul li {
+    font-size: 19px;
+  }
+
+  .sec-1-logo {
+    padding-bottom: 10px;
+  }
+
+  /* Section-2 */
+
+  .sec-2 {
+    padding: 50px 0 0 0;
+  }
+
+  .box-1 {
+    flex-basis: 37%;
+  }
+
+  /* Section-2-2 */
+
+  .sec-22-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-22-text h2 {
+    font-size: 42px;
+  }
+
+  .box-22 {
+    flex-basis: 38%;
+  }
+
+  .details h3 {
+    font-size: 30px;
+  }
+
+  .star-ratings {
+    font-size: 20px;
+  }
+
+  /* Section-3 */
+
+  .sec-3-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-3-text h2 {
+    font-size: 42px;
+  }
+
+  .box-3 {
+    flex-basis: 36%;
+  }
+
+  .sec-3-details h3 {
+    font-size: 28px;
+  }
+
+  .sec-3-details h4 {
+    font-size: 26px;
+  }
+
+  /* Section-4 */
+
+  .sec-4-text {
+    margin-bottom: 40px;
+  }
+
+  .sec-4-text h2 {
+    font-size: 44px;
+  }
+
+  .images {
+    flex-basis: 29%;
+  }
+
+  /* Section-6 */
+
+  .sec-6 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-6-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-6-text h2 {
+    font-size: 42px;
+  }
+
+  .sec-6-card {
+    flex-basis: 30%;
+  }
+
+  .date-box h4 {
+    font-size: 18px;
+  }
+
+  .sec-6-card-text h3 {
+    font-size: 20px;
+  }
+
+  /* Section-7 */
+
+  .sec-7 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-7-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-7-text h2 {
+    font-size: 42px;
+  }
+
+  .cus-name h4 {
+    font-size: 22px;
+  }
+
+  /* Section-8 */
+
+  .sec-8 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-8-box {
+    padding: 40px 50px;
+  }
+
+  .sec-8-text {
+    flex-basis: 59%;
+  }
+
+  .sec-8-text h2 {
+    font-size: 35px;
+  }
+
+  .call-8 {
+    font-size: 35px;
+  }
+
+  .sec-8-call-details h3 {
+    font-size: 35px;
+  }
+
+  /* Section-9 */
+
+  .team-1 {
+    flex-basis: 38%;
+  }
+
+  .sec-9-text {
+    margin-bottom: 30px;
+  }
+
+  /* Section-10 */
+
+  .sec-10 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-10-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-10-text h2 {
+    font-size: 42px;
+  }
+
+  .cards {
+    flex-basis: 31%;
+  }
+
+  .cards ul li {
+    font-size: 15px;
+  }
+
+  .cards .card-list {
+    padding-bottom: 67px;
+  }
+
+  /* Section-11 */
+
+  .sec-11 {
+    padding: 50px 0 0 0;
+  }
+
+  .sec-11-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-11-text h2 {
+    font-size: 42px;
+  }
+
+  .sec-11-details {
+    flex-basis: 35%;
+  }
+
+  /* Section-12 */
+
+  .sec-12-text {
+    margin-bottom: 35px;
+  }
+
+  .form-box-1 {
+    flex-basis: 44%;
+  }
+
+  textarea {
+    width: 884px;
+  }
+
+  /* Section-13 */
+
+  .sec-13-text {
+    margin-bottom: 35px;
+  }
+
+  .sec-13-text h2 {
+    font-size: 42px;
+  }
+
+  .sec-13-images {
+    flex-basis: 29%;
+  }
+
+  /* Section-14 */
+
+  .sec-14-text h2 {
+    font-size: 42px;
+  }
+
+  /* Footer */
+
+  .foot-logo {
+    margin-bottom: 35px;
+  }
+
+  .foot-1 {
+    flex-basis: 21%;
+  }
+
+  .foot-timings h4 {
+    font-size: 20px;
+  }
+
+  .foot-icon {
+    font-size: 18px;
+  }
+
+  .foot-1 h4 a {
+    font-size: 16px;
+  }
+
+  .foot-1 ul li a {
+    font-size: 18px;
+  }
+
+  .foot-timings h5 {
+    font-size: 18px;
+  }
+}
